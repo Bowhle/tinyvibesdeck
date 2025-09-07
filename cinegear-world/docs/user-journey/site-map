@@ -1,0 +1,37 @@
+Cinegear Site Map
+
+Home (/#home)
+ ├─ Hero Section
+ │   ├─ Event headline (Cinegear World – Sandton Convention Centre)
+ │   ├─ Date & Location
+ │   ├─ Tagline / Value prop
+ │   ├─ Primary CTA: Register Now → opens Register Modal
+ │   └─ Secondary CTA: Apply to Exhibit → opens Exhibit Modal
+ │
+ └─ Navigation (sticky header)
+     ├─ Home (#home)
+     ├─ About (#about)
+     ├─ Trends & Events (#trends)
+     └─ CTAs (Register / Exhibit)
+
+About (/#about)
+ ├─ What / When / Where
+ ├─ Who Should Attend
+ ├─ Exhibitor Benefits
+ └─ FAQs (expand/collapse)
+
+Trends & Events (/#trends)
+ ├─ 2025 Trends (card grid: Virtual Production, AI Pipeline, On-set Cloud, etc.)
+ ├─ Highlighted Agenda / Schedule Teasers
+ └─ CTA: “Get My Expo Pass” → Register Modal
+
+CTAs (modal overlays, not separate pages)
+ ├─ Register Modal
+ │   ├─ Form (Name, Email, opt-in for updates)
+ │   ├─ Privacy note
+ │   └─ Success screen
+ │
+ └─ Exhibit Modal
+     ├─ Form (Company, Contact, Email, Package tier)
+     ├─ Info on exhibitor benefits
+     └─ Success screen
