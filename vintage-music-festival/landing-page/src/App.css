@@ -27,8 +27,7 @@ main {
 .btn-outline {
     background: transparent;
     color: (var(--ink));
-    border: 2px;
-    solid: var(--ink);
+    border: 2px solid var(--ink);
 }
 
 .card {

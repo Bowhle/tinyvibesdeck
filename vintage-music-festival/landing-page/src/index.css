@@ -1,26 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=bungee:wght@400;700&family=Nanito:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee:wght@400&family=Nunito:wght@400;700&display=swap');
 
-:root {
-  --yellow: #FFC335;
-  --ink: #0e0d0d;
-  --teal: #10b9ad;
-  --pink: #ff4ba8;
-  --radius: 20px;
-  --shadow: 0 10px 30px rgba(0, 0, 0, 15);
-  --font-heading: 'Bungee', cursive;
-  --font-body: 'Nanito', sans-serif;
+:root{
+  --yellow:#FFC335;
+  --ink:#0e0d0d;
+  --cream:#fff7e6;
+  --teal:#10b9ad;
+  --pink:#ff4ba8;
+  --radius:20px;
+  --shadow:0 10px 30px rgba(0,0,0,.15);
 }
 
-* {boxing-sizing: boarder-box}
-body {
-  margin: 0;
-  font-family: var(--font-body);
-  color: var(--ink);
-  background: var(--yellow);
-  color: var(--ink);
+*{box-sizing:border-box}
+body{
+  margin:0;
+  font-family: Nunito, sans-serif;
+  background:var(--yellow);
+  color:var(--ink);
 }
-
-a {
-  color: inherit; 
-  text-decoration:none;
-}
+a{color:inherit;text-decoration:none}
