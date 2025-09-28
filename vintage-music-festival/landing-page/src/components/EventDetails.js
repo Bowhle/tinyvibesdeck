@@ -24,7 +24,10 @@ function EventDetails() {
     return (
         <section id="details" className="container card">
             <h2 className="heading"
-            style={{ marginTop: 0 }}>
+            style={{ 
+                marginTop: 0,
+                alignItems: 'center',
+                textAlign: 'center'}}>
                 Event Details
             </h2>
 
@@ -33,6 +36,7 @@ function EventDetails() {
                     display: 'grid',
                     gridTemplateColumns: 'repeat(auto-fit, minmax(220px, 1fr))',
                     gap: 32,
+                    textAlign: 'center',
                 }}
             >
                 <Row label="venue" value="Blairgowrie Primary School Hall" />
@@ -52,10 +56,12 @@ function EventDetails() {
             <p style={{
                fontSize: 16,
                margin: 0,
+               textAlign: 'center',
             }}>
-            Dress to impress in your favorite retro fits.
+            Dress to impress in your favorite retro fits.<br>
+            </br>
             Expect classics, sing-alongs, a family-friendly groove floor,
-            and sweet treats. Limited seats.
+            and sweet treats. <br></br>Limited seats.
             </p>
         </section>
     );

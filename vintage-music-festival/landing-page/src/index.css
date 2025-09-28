@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Bungee:wght@400&family=Nunito:wght@400;700&display=swap');
 
 :root{
-  --yellow:#FFC335;
+  --yellow:#efba3f;
   --ink:#0e0d0d;
   --cream:#fff7e6;
-  --teal:#10b9ad;
-  --pink:#ff4ba8;
+  --teal:#05a79c;
+  --pink:#fd2b9f;
   --radius:20px;
   --shadow:0 10px 30px rgba(0,0,0,.15);
 }

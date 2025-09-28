@@ -4,7 +4,7 @@ import Header from './components/Header';
 import Hero from './components/Hero';
 import Footer from './components/Footer';
 import EventDetails from './components/EventDetails';
-{/* import CTASection from './components/CTASection'; */} 
+import CTASection from './components/CTASection'; 
 
 function App() {
   return (
@@ -13,7 +13,7 @@ function App() {
       <main>
         <Hero />
         <EventDetails />
-        {/* <CTASection /> */}
+        <CTASection />
       </main>
       <Footer />
     </>

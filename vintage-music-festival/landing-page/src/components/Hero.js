@@ -1,25 +1,17 @@
 import React from 'react';
-import Poster from '../assets/Vintage_Music_Festival_Digital.jpg';
+import './Hero.css';
+import poster from '../assets/Vintage_Music_Festival_Digital.jpg';
 
 function Hero() {
-    return (
-        <section
-        aria-label='Festival hero'
-        style={{
-            position: 'relative', 
-            textAlign: 'center'
-        }}
-        >
-        <img
-            src={Poster}
-            alt='Vintage Music Festival poster'
-            style={{
-            width: '100%',
-            borderRadius: 20,
-            }}
-        />
-        </section>
-    );
+  return (
+    <section className="hero" aria-label="Festival hero">
+      <img
+        className="hero-img"
+        src={poster}
+        alt="Vintage Music Festival poster"
+      />
+    </section>
+  );
 }
 
 export default Hero;

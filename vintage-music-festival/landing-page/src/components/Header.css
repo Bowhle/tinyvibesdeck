@@ -1,0 +1,43 @@
+/* Header.css */
+.site-header{
+  padding: 18px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.site-title{
+  margin: 0;
+  font-size: 24px;
+  line-height: 1.1;
+}
+
+/* simple horizontal nav */
+.site-nav{
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+/* links */
+.site-nav a{
+  font-weight: 700;
+  text-decoration: none;
+}
+
+/* small responsive tweak */
+@media (max-width: 640px){
+  .site-header{
+    padding: 14px 0;
+  }
+  .site-title{
+    font-size: 20px;
+  }
+}
+@media (max-width: 480px){
+  .site-header{
+    flex-direction: column;
+    gap: 12px;
+    text-align: center;
+  }
+}

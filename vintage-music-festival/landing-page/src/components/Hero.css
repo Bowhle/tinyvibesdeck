@@ -1,0 +1,39 @@
+/* Hero.css */
+.hero {
+  position: relative;
+  text-align: center;
+}
+
+.hero-img {
+  width: 100%;
+  display: block;
+  border-radius: 20px;
+  box-shadow: none;
+}
+
+/* giving anchored sections breathing room when jumping via #hash */
+#details,
+#tickets {
+  scroll-margin-top: 80px; /* this will help if header becomes sticky later */
+}
+
+@media (min-width: 1024px) {
+  .hero-img {
+    border-radius: 24px;
+  }
+}
+@media (max-width: 640px) {
+  .hero-img {
+    border-radius: 16px;
+  }
+}
+@media (max-width: 480px) {
+  .hero-img {
+    border-radius: 12px;
+  }
+}
+@media (max-width: 360px) {
+  .hero-img {
+    border-radius: 8px;
+  }
+}

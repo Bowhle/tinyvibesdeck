@@ -1,7 +1,12 @@
 main {
     display: flex;
     flex-direction: column;
-    gap: 64px;
+    gap: 48px;
+}
+
+.container {
+    width: min(1100px, 90%);
+    margin-inline: auto;
 }
 
 .btn {
@@ -13,7 +18,7 @@ main {
     border: 0;
     cursor: pointer;
     background:  var(--link);
-    color: white;
+    color: --var(--ink);
     font-weight: 800;
     box-shadow: var(--shadow);    
 }

@@ -1,0 +1,59 @@
+/* EventDetails.css */
+.event-card {
+  background: var(--cream);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 24px;
+  margin: 40px auto 0;
+}
+
+.event-title {
+  margin: 0 0 16px;
+  font-family: Bungee, system-ui, sans-serif;
+  font-size: 28px;
+}
+
+.event-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.event-label {
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: .6px;
+  margin-bottom: 6px;
+  display: block;
+}
+
+.event-note {
+  margin: 0;
+  font-size: 16px;
+}
+
+@media (min-width: 1024px) {
+  .event-card { padding: 28px; }
+  .event-title { font-size: 32px; }
+}
+@media (max-width: 640px) {
+  .event-card { padding: 20px; }
+  .event-title { font-size: 24px; }
+}
+@media (max-width: 541px) {
+  .event-card { padding: 16px; }
+  .event-title { font-size: 20px; }
+}
+@media (max-width: 480px) {
+  .event-card { padding: 16px; }
+  .event-title { font-size: 20px; }
+}
+@media (max-width: 360px) {
+  .event-card { padding: 12px; }
+  .event-title { font-size: 18px; }
+}
+@media (max-width: 320px) {
+  .event-card { padding: 8px; }
+  .event-title { font-size: 16px; }
+}

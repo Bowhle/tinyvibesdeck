@@ -1,0 +1,82 @@
+/* CTASection.css */
+.cta {
+  margin: 40px auto 0;
+}
+
+.cta-card {
+  background: var(--cream);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 28px;
+  padding-bottom: 40px;
+  text-align: center;
+}
+
+.cta-title {
+  margin: 0 0 8px;
+  font-family: Bungee, system-ui, sans-serif;
+  font-size: 28px;
+}
+
+.cta-sub {
+  margin: 0 0 16px;
+  color: var(--ink);
+}
+
+/* button variants */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 14px 20px;
+  border-radius: 999px;
+  border: 0;
+  cursor: pointer;
+  background: var(--ink);
+  color: white;
+  font-weight: 800;
+  letter-spacing: .2px;
+  box-shadow: var(--shadow);
+  transition: transform .15s ease, box-shadow .15s ease, opacity .15s ease;
+}
+
+.btn:hover,
+.btn:focus-visible {
+  transform: translateY(-1px);
+  box-shadow: 0 12px 32px rgba(0,0,0,.2);
+}
+
+.btn:active {
+  transform: translateY(0);
+  opacity: .9;
+}
+
+.btn-outline {
+  background: transparent;
+  border: 2px solid var(--ink);
+  color: var(--ink);
+}
+
+@media (min-width: 1024px) {
+  .cta-title { font-size: 32px; }
+}
+@media (max-width: 640px) {
+  .cta-card { padding: 24px; }
+  .cta-title { font-size: 24px; }
+}
+@media (max-width: 541px) {
+  .cta-card { padding: 20px; }
+  .cta-title { font-size: 20px; }
+}
+@media (max-width: 480px) {
+  .cta-card { padding: 16px; }
+  .cta-title { font-size: 20px; }
+}
+@media (max-width: 360px) {
+  .cta-card { padding: 12px; }
+  .cta-title { font-size: 18px; }
+}
+@media (max-width: 320px) {
+  .cta-card { padding: 8px; }
+  .cta-title { font-size: 16px; }
+}
