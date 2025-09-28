@@ -7,7 +7,7 @@ function Footer() {
         padding: '40, 0', 
         fontSize: 14 }}>
         <p style={{ margin: 0 }}>
-            &copy; {new Date().getFullYear()} Designed by Bowhle 2025
+            &copy; {new Date().getFullYear()} Designed by Bowhle
         </p>
     </footer>
   );
