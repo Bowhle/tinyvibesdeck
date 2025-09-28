@@ -1,0 +1,43 @@
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+}
+
+.btn {
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    padding: 14px 20px;
+    border-radius: 999px;
+    border: 0;
+    cursor: pointer;
+    background:  var(--link);
+    color: white;
+    font-weight: 800;
+    box-shadow: var(--shadow);    
+}
+
+.btn:hover {
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+    transform: translateY(-3px);
+    transition: all 0.3s ease;
+}
+
+.btn-outline {
+    background: transparent;
+    color: (var(--ink));
+    border: 2px;
+    solid: var(--ink);
+}
+
+.card {
+    background: var(--cream);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    padding: 24px;
+}
+
+.heading {
+    font-family: bungee, cursive;
+}
