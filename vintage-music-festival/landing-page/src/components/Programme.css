@@ -1,0 +1,15 @@
+.prog { padding: 40px 0 0; }
+.prog-card {
+  background: var(--cream);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 24px;
+}
+.prog-title {
+  margin: 0 0 10px;
+  font-family: Bungee, system-ui, sans-serif;
+  font-size: 26px;
+}
+.prog-list { display: grid; gap: 8px; }
+.prog-item { display: grid; grid-template-columns: 28px 1fr; gap: 10px; }
+.prog-actions { margin-top: 14px; display: flex; gap: 10px; flex-wrap: wrap; }

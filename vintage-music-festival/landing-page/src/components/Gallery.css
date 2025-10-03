@@ -1,0 +1,36 @@
+.gallery {
+  padding: 40px 0 70px;
+}
+
+.marquee {
+  display: flex;
+  overflow: hidden;
+  gap: 16px;
+}
+
+.track {
+  display: flex;
+  gap: 16px;
+  animation: slide 18s linear infinite;
+}
+
+.marquee:hover .track { animation-play-state: paused; }
+
+.frame {
+  width: 280px;
+  height: 180px;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: var(--shadow);
+}
+
+.frame img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@keyframes slide {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-50%); }
+}

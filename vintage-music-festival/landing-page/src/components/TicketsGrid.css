@@ -1,0 +1,51 @@
+.tix {
+  padding: 40px 0 0;
+}
+
+.tix-title {
+  margin: 0 0 14px;
+  font-family: Bungee, system-ui, sans-serif;
+  font-size: 28px;
+  text-align: center;
+}
+
+.tix-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 18px;
+}
+
+.flip {
+  perspective: 1000px;
+}
+.flip-inner {
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform .6s;
+}
+.flip:hover .flip-inner,
+.flip:focus-within .flip-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-face {
+  background: var(--cream);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 22px;
+  min-height: 160px;
+  display: grid;
+  place-items: center;
+  text-align: center;
+  backface-visibility: hidden;
+}
+
+.flip-back {
+  position: absolute;
+  inset: 0;
+  transform: rotateY(180deg);
+}
+
+.tix-cta {
+  margin-top: 10px;
+}

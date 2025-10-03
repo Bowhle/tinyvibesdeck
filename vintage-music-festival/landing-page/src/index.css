@@ -18,3 +18,12 @@ body{
   color:var(--ink);
 }
 a{color:inherit;text-decoration:none}
+
+html {scroll-behavior: smooth;}
+
+/* this is for when you scroll to #ids, this keeps #ids
+from hiding under a sticky header should i add one later */
+#about, #details, #program, #gallery {
+  scroll-margin-top: 80px;
+  scroll-margin-top: 80px;
+}

@@ -1,0 +1,35 @@
+.form {
+  padding: 28px 0 60px;
+}
+
+.form-card {
+  background: var(--cream);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 24px;
+}
+
+.row {
+  display: grid;
+  gap: 12px;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+
+label {
+  font-weight: 700;
+  margin-bottom: 6px;
+  display: block;
+}
+
+input, select {
+  width: 100%;
+  padding: 12px 14px;
+  border-radius: 12px;
+  border: 2px solid #ddd;
+  background: white;
+}
+
+.summary {
+  margin-top: 16px;
+  font-weight: 800;
+}
